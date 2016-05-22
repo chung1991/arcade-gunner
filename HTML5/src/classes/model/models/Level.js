@@ -44,9 +44,6 @@ var Level = cc.Class.extend({
             this._map.loadLand();
             this._map.loadBackground();
             this._map.loadLandPixels();
-
-            this._map.setLandPosition(cc.p(this._map._landWidth / 2, this._map._landHeight / 2));
-            this._map._background.setPosition(cc.p(this._map._landWidth / 2, this._map._landHeight / 2));
         }
     },
 
@@ -79,7 +76,7 @@ var Level = cc.Class.extend({
         }
 
         // FIX: format string
-        var landImage = cc.formatStr("resources/HD/foreground/%s.png", "cozy");
+        var landImage = cc.formatStr("resources/HD/foreground/%s.png", "cozyPixel");
         mapData._landTextureFile = landImage;
 
         var bgImage = cc.formatStr("%s.png", "cozy");
