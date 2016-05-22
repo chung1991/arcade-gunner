@@ -1,0 +1,61 @@
+
+mobile.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 18
+  size: 125, 91
+  orig: 125, 91
+  offset: 0, 0
+  index: -1
+body_2
+  rotate: false
+  xy: 129, 25
+  size: 84, 84
+  orig: 84, 84
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 345, 2
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1
+face2
+  rotate: false
+  xy: 215, 25
+  size: 78, 84
+  orig: 78, 84
+  offset: 0, 0
+  index: -1
+gun1
+  rotate: false
+  xy: 295, 43
+  size: 86, 66
+  orig: 86, 66
+  offset: 0, 0
+  index: -1
+leg2
+  rotate: false
+  xy: 445, 56
+  size: 46, 53
+  orig: 46, 53
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 383, 54
+  size: 60, 55
+  orig: 60, 55
+  offset: 0, 0
+  index: -1
+tooth
+  rotate: false
+  xy: 295, 6
+  size: 48, 35
+  orig: 48, 35
+  offset: 0, 0
+  index: -1

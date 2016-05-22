@@ -1,0 +1,12 @@
+
+head.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+head3
+  rotate: false
+  xy: 2, 2
+  size: 95, 91
+  orig: 95, 91
+  offset: 0, 0
+  index: -1

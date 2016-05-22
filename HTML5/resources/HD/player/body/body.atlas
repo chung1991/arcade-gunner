@@ -1,0 +1,12 @@
+
+body.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body3
+  rotate: false
+  xy: 2, 2
+  size: 95, 87
+  orig: 122, 102
+  offset: 4, 10
+  index: -1
