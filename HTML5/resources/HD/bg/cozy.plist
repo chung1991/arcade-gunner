@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>cozy.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{1300,1300}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{1300,1300}}</string>
+                <key>sourceSize</key>
+                <string>{1300,1300}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>cozy.png</string>
+            <key>size</key>
+            <string>{1304,1304}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:bdcf28d8eb6e85c95ab320a8dafc686f:77fb0a4d800fd83a4fcb1a4e76ba6dd2:5e014165f8d80e616acdfe0a0c43bcef$</string>
+            <key>textureFileName</key>
+            <string>cozy.png</string>
+        </dict>
+    </dict>
+</plist>

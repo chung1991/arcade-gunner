@@ -1,6 +1,6 @@
 var gameConst = {
-	DESIGN_WIDTH : 640,
-	DESIGN_HEIGHT : 960,
+	DESIGN_WIDTH : 1920,
+	DESIGN_HEIGHT : 1080,
 
 	FACE_MAIN : "main",
 	FACE_FIX_ROTATION: "rotation",
@@ -37,6 +37,8 @@ var gameConst = {
 
 	PLAYER_BODY_WIDTH: 300,
 	PLAYER_BODY_HEIGHT: 300,
+
+    FAKED_BG_SCALE: 2.5
 };
 
 window.onload = function() {
@@ -49,6 +51,9 @@ window.onload = function() {
 		LoaderScene.preload(g_resources, function() {
 			// create only none instance of GameModel for a lifetime
 			this.gameModel = new GameModel();
+
+            cc.spriteFrameCache.addSpriteFrames(res.cozy_plist);
+            cc.spriteFrameCache.addSpriteFrames(res.cozy_bg_plist);
 
 			// everything start from game controller
 			this.gameController = new GameController();

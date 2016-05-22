@@ -18,7 +18,15 @@ var res = {
     player_body_json: "resources/HD/player/body/body.json",
     player_body_png: "resources/HD/player/body/body.png",
 
-    bg: "resources/HD/bg/bg1.png"
+    bg: "resources/HD/bg/bg1.png",
+
+    cozy_bg_plist: "resources/HD/bg/cozy.plist",
+    cozy_bg_png: "resources/HD/bg/cozy.png",
+
+    cozy_plist: "resources/HD/foreground/cozy.plist",
+    cozy_png: "resources/HD/foreground/cozy.png",
+    cozy_pixel_png: "resources/HD/foreground/cozyPixel.png"
+
 };
 
 var g_resources = [];

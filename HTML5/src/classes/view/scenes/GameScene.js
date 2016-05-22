@@ -121,10 +121,14 @@ var GameScene = BaseScene.extend({
 		var currentLevel = this._gameModel._currentLevel;
 
 		// add background
-		var backgroundSprite = cc.Sprite.create(currentLevel._backgroundName);
-		backgroundSprite.x = winSize.width / 2;
-		backgroundSprite.y = winSize.height / 2;
-		this._backgroundLayer.addChild(backgroundSprite);
+        this.addFacesToLayer(currentLevel._map._background, this._backgroundLayer, gameConst.INDEX_OBJECT);
+
+        // add land
+        var lands = currentLevel._map._lands;
+        for (var i = 0; i < lands.length; i++) {
+            var land = lands[i];
+            this.addFacesToLayer(land, this._mainLayer, gameConst.INDEX_OBJECT);
+        }
 
 		// add player
 		this.addFacesToLayer(currentLevel._player, this._mainLayer, gameConst.INDEX_OBJECT);

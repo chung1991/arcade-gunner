@@ -78,7 +78,7 @@ var GameModel = cc.Class.extend({
 		 */
     	this._level = level;
 
-    	this._gameState = gameConst.GS_PAUSE;
+    	this._gameState = gameConst.GS_PLAY;
 
 		this._currentLevel = new Level(this);
     	this._currentLevel.loadMap();
